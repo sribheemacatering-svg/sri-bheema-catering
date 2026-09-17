@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ஸ்ரீ பீமா கேட்டரிங்</title>
+    <style>
+        /* டார்க் கிரீன் மற்றும் வெஜிடேரியன் தீம் */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f2fcf2; 
+            color: #004d00; 
+        }
+        header { 
+            background-color: #004d00; 
+            color: white; 
+            text-align: center; 
+            padding: 2em 20px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        /* உச்சியில் வரும் சிறிய விநாயகர் படம் */
+        .ganesha-icon {
+            width: 65px;
+            height: 65px;
+            display: block;
+            margin: 0 auto 15px auto; 
+            object-fit: cover;
+            border-radius: 50%;
+            background-color: white;
+            border: 2px solid #ff9800;
+            padding: 3px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+
+        /* செவ்வக வடிவ பேனர் (Rectangle Banner) டிசைன் */
+        .header-banner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #ffffff; 
+            border: 4px solid #ff9800; 
+            border-radius: 15px; 
+            padding: 15px 30px;
+            max-width: 800px;
+            margin: 0 auto 20px auto;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        /* பக்கவாட்டுப் படங்களின் அளவு (செஃப் மற்றும் மகா பெரியவா) */
+        .side-icon {
+            width: 90px;
+            height: 90px;
+            object-fit: cover; 
+            border-radius: 10px; 
+            border: 2px solid #004d00;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+        }
+        
+        /* லோகோவின் அமைப்பு */
+        .main-logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; 
+            border: 3px solid #004d00;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 10px 0 0 0;
+            font-size: 2.5em;
+        }
+        .badge {
+            background-color: #ff9800;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        section { 
+            padding: 25px; 
+            margin: 20px auto; 
+            max-width: 850px; 
+            background: white; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05); 
+            border-left: 5px solid #004d00;
+        }
+        h2 { 
+            color: #003300; 
+            border-bottom: 2px dashed #2e8b57;
+            padding-bottom: 8px;
+        }
+        .gallery {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        .gallery img {
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+            border: 2px solid #c8e6c9;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .hero-image {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .hero-image img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #c8e6c9;
+        }
+        th {
+            background-color: #e8f5e9;
+            color: #004d00;
+        }
+        .timing {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+            color: #d32f2f;
+            background: #ffebee;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        footer { 
+            text-align: center; 
+            padding: 20px; 
+            background-color: #003300; 
+            color: white; 
+            margin-top: 40px; 
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- உச்சிப் பகுதியில் சிறிய விநாயகர் படம் -->
+        <img src="40500.jpg" alt="விநாயகர்" class="ganesha-icon">
+
+        <!-- செவ்வக வடிவ பேனர் அமைப்பு -->
+        <div class="header-banner">
+            <!-- இடது பக்கம்: செஃப் பொம்மை (Chef Doll) -->
+            <img src="https://via.placeholder.com/100x100/ffffff/ff9800?text=செஃப்+பொம்மை" alt="Chef Mascot" class="side-icon">
+            
+            <!-- நடுவில்: நீங்கள் கொடுத்த ஸ்ரீ பீமா கேட்டரிங் லோகோ -->
+            <img src="722750bb-7971-4863-a806-4c1c48cb0448" alt="ஸ்ரீ பீமா கேட்டரிங் லோகோ" class="main-logo">
+            
+            <!-- வலது பக்கம்: மகா பெரியவா (ஸ்ரீ சங்கராச்சாரியார்) படம் -->
+            <img src="40499.jpg" alt="மகா பெரியவா" class="side-icon">
+        </div>
+        
+        <h1>ஸ்ரீ பீமா கேட்டரிங்</h1>
+        <div class="badge">100% சுத்த சைவம் 🌿</div>
+        <p>நாவில் சுவை நடனமாடும்... பாரம்பரியமான சுவையான உணவுகளுக்கு!</p>
+    </header>
+
+    <section>
+        <h2>எங்கள் சிறப்பு உணவுகள்</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300x200/2e8b57/ffffff?text=இட்லி+மற்றும்+வடை" alt="இட்லி வடை">
+            <img src="https://via.placeholder.com/300x200/2e8b57/ffffff?text=சுவையான+பொங்கல்" alt="பொங்கல்">
+            <img src="https://via.placeholder.com/300x200/2e8b57/ffffff?text=பாரம்பரிய+இனிப்புகள்" alt="இனிப்புகள்">
+        </div>
+    </section>
+
+    <section>
+        <h2>எங்கள் சிறப்பு வாழை இலை விருந்து</h2>
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/800x400/2e8b57/ffffff?text=சுவையான+வாழை+இலை+சாப்பாடு" alt="வாழை இலை சாப்பாடு">
+        </div>
+        <p>அறுசுவை உணவுகளுடன் கூடிய பாரம்பரியமான வாழை இலை சாப்பாடு எங்கள் தனிச்சிறப்பு. உங்கள் வீட்டு சுபநிகழ்ச்சிகள் எதுவாக இருந்தாலும், தரத்திலும் சுவையிலும் நாங்கள் சமரசம் செய்து கொள்வதே இல்லை.</p>
+    </section>
+
+    <section>
+        <h2>பொதுவான விலைப்பட்டியல் (ஜெனரல் மெனு)</h2>
+        <p><em>குறிப்பு: நிகழ்ச்சியின் தன்மை மற்றும் மெனுவின் அளவைப் பொறுத்து இந்த விலையில் மாற்றங்கள் செய்யப்படலாம். வாடிக்கையாளர்களின் விருப்பத்திற்கு ஏற்ப கஸ்டமைஸ் (Customize) செய்து தரப்படும்.</em></p>
+        <table>
+            <tr>
+                <th>மெனு விவரம்</th>
+                <th>தோராயமான விலை (ஒரு நபருக்கு)</th>
+            </tr>
+            <tr>
+                <td>காலை சிற்றுண்டி (டிபன்)</td>
+                <td>₹100 முதல் ₹150 வரை</td>
+            </tr>
+            <tr>
+                <td>மதிய வாழை இலை விருந்து (Full Meals)</td>
+                <td>₹250 முதல் ₹400 வரை</td>
+            </tr>
+            <tr>
+                <td>மினி மீல்ஸ் / கலவை சாதங்கள்</td>
+                <td>₹120 முதல் ₹180 வரை</td>
+            </tr>
+            <tr>
+                <td>இரவு உணவு (டிபன் & இனிப்பு)</td>
+                <td>₹120 முதல் ₹200 வரை</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>எங்கள் சேவைகள் & நேரம்</h2>
+        <ul>
+            <li>திருமண ஆர்டர்கள், வளைகாப்பு, கிரகப்பிரவேசம் மற்றும் அனைத்து சுபநிகழ்ச்சிகள்.</li>
+            <li>சிறிய அளவிலான வீட்டு பார்ட்டிகள் மற்றும் அலுவலக மீட்டிங்குகள்.</li>
+        </ul>
+        <div class="timing">
+            🕒 நாங்கள் 24×7 மணி நேரமும் செயல்படுகிறோம்! உங்கள் ஆர்டர்களை எப்போது வேண்டுமானாலும் முன்கூட்டியே பதிவு செய்யலாம்.
+        </div>
+    </section>
+
+    <section>
+        <h2>தொடர்புக்கு</h2>
+        <p><strong>முகவரி:</strong> சென்னை, தமிழ்நாடு</p>
+        <p><strong>தொலைபேசி:</strong> +91 98404 45199 (24*7 புக்கிங்)</p>
+        <p><strong>வாட்ஸ்அப்:</strong> +91 98404 45199</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 ஸ்ரீ பீமா கேட்டரிங். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.</p>
+    </footer>
+
+</body>
+</html>
